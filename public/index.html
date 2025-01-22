@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Simulation</title>
+  <style>
+    .blockchain {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+    }
+    .block {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="blockchain">
+    <h1>Blockchain Simulation</h1>
+    <div id="blockchain"></div>
+    <button id="mineButton">Mine Block</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
