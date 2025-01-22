@@ -27,11 +27,18 @@ This project is a simple blockchain simulation that mimics the core features of 
 ## Setup and Execution Instructions
 
 ### Cloning the Repository
-
 1. Clone the repository:
    ```sh
    git clone <repository-url>
    cd <repository-directory>
+
+2. for Testing
+   ```sh
+   npm test
+3. view at http://localhost:3000
+   ```sh
+   npm start
+   
 Running the Project with Docker
 Build and run the Docker containers:
 
