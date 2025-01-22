@@ -31,18 +31,23 @@ This project is a simple blockchain simulation that mimics the core features of 
    ```sh
    git clone <repository-url>
    cd <repository-directory>
- 2.npm install
-   ```sh
-   npm install
-3. for Testing
-   ```sh
-   npm test
-4. view at http://localhost:3000
-   ```sh
-   npm start
+Install dependencies:
+```sh
+npm install
+```
+For testing:
+```sh
+npm test
+```
+To run the project:
+```sh
+npm start
+```
 Running the Project with Docker
 Build and run the Docker containers:
-
+```sh
+docker-compose up --build
+```
 Access the frontend at http://localhost:5000 and the backend at http://localhost:3000.
 
 Project Structure
@@ -70,6 +75,9 @@ A basic proof-of-work mechanism is implemented to make block creation computatio
 Example Usage
 Start the Docker containers:
 
+```sh
+docker-compose up --build
+```
 Open your web browser and navigate to http://localhost:5000 to see the frontend.
 
 Use the frontend to:
@@ -78,4 +86,14 @@ View the current blockchain.
 Mine new blocks with custom data.
 Validate the blockchain's integrity.
 Contact Information
-For queries, email hr@quadbtech.com with the subject "Full Stack Developer Task Query".
+For queries, email krishnabandewar43@.com
+
+
+### Key Points:
+- Ensure to replace `<repository-url>` with the actual URL of the repository.
+- This format follows GitHub Markdown standards for readability.
+
+
+
+
+
