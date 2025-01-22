@@ -31,14 +31,15 @@ This project is a simple blockchain simulation that mimics the core features of 
    ```sh
    git clone <repository-url>
    cd <repository-directory>
-
-2. for Testing
+ 2.npm install
+   ```sh
+   npm install
+3. for Testing
    ```sh
    npm test
-3. view at http://localhost:3000
+4. view at http://localhost:3000
    ```sh
    npm start
-   
 Running the Project with Docker
 Build and run the Docker containers:
 
